@@ -1,3 +1,13 @@
+:root {
+    --border-size: 1px;
+    --border-color: black;
+    --main-border-style: solid;
+    --blur-radius: 30px;
+    --shadow-offset: 0 0;
+    --img-width: 150px;
+    --img-padding: 2px;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -14,11 +24,11 @@ h1 {
 }
 
 img {
-    width: 150px;
+    width: var(--img-width);
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    border: var(--border-size) var(--main-border-style) var(--border-color);
+    padding: var(--img-padding);
+    box-shadow: var(--shadow-offset) var(--blur-radius) gray;
 }
 
 p {
@@ -30,17 +40,17 @@ main {
 }
 
 main img {
-    width: 150px;
+    width: var(--img-width);
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    border: var(--border-size) var(--main-border-style) var(--border-color);
+    padding: var(--img-padding);
+    box-shadow: var(--shadow-offset) var(--blur-radius) gray;
 }
 
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 139 / 0.3);
+    border: var(--border-size) var(--main-border-style) rgb(0 0 139 / 0.3);
     padding: 1rem;
     background-color: rgb(208, 235, 252);
     color: #007;
@@ -53,6 +63,6 @@ aside img {
 
 footer {
     margin-top: 2em;
-    border-top: 1px dotted #000;
+    border-top: var(--border-size) dotted var(--border-color);
     text-align: center;
 }
