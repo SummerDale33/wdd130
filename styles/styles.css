@@ -38,6 +38,7 @@ nav a {
 
 h1 {
     color: var(--header-color);
+    padding: 1rem;
 }
 
 img {
@@ -63,6 +64,7 @@ main img {
     padding: var(--img-padding);
     box-shadow: var(--shadow-offset) var(--blur-radius) var(--shadow-color);
     float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 aside {
@@ -95,8 +97,12 @@ footer {
 
 .box {
     margin: 1rem;
-    border: var(--border-size) var(--main-border-style) var(--aside-bordercolor);
+    border: var(--border-size) var(--main-border-style) var(--aside-border-color);
     padding: 1rem;
     background-color: var(--aside-bgcolor);
     color: var(--aside-color);
+}
+
+.indent {
+    padding-left: 2rem;
 }
