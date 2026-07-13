@@ -1,7 +1,7 @@
 :root {
     --bgcolor: #ddf;
     --primary-color: skyblue;
-    --secondary-color: darkgreen;
+    --secondary-color: orange;
     --accent1-color: darkblue;
     --accent2-color: black;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -75,16 +75,22 @@ h2 {
     padding: 10px;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 350px;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color)
+}
+
+.hero article p {
+    background-color: var(--secondary-color);
 }
 
 .hero article img {
     float: right;
     width: 150px;
     height: auto;
-    box-shadow: 0 0 20px var(--accent1-color);
+    box-shadow: 0 0 20px var(--accent2-color);
 }
 
 footer img {
