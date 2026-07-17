@@ -25,15 +25,15 @@
     --img-title-shadow-size: 20px;
 }
 
-nav {
-    background-color: var(--bg-color);
-    padding: 10px;
-}
-
 nav a {
     color: var(--nav-color);
     display: block;
     padding: 20px;
+}
+
+nav {
+    background-color: var(--bg-color);
+    padding: 10px;
 }
 
 h1 {
@@ -53,10 +53,6 @@ p {
     padding: 1rem;
 }
 
-main {
-    max-width: 600px;
-}
-
 main img {
     width: var(--img-width);
     height: auto;
@@ -67,10 +63,8 @@ main img {
     margin: 0 0 1rem 1rem;
 }
 
-aside {
-    width: 20rem;
-    position: relative;
-
+main {
+    max-width: 600px;
 }
 
 aside h2 {
@@ -85,6 +79,12 @@ aside h2 {
 aside img {
     width: 200px;
     height: auto;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+
 }
 
 footer {
