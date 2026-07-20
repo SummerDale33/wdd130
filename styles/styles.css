@@ -20,7 +20,7 @@
     --nav-color: white;
     --aside-color: #007;
     --img-title-color: #003;
-    --img-title-bgcolor: rgba(255, 255, 255, 0.55);
+    --img-title-bgcolor: rgba(255, 255, 255, 0.45);
     --img-title-shadow-color: white;
     --img-title-shadow-size: 20px;
 }
@@ -93,7 +93,7 @@ aside {
 aside h2 {
     position: absolute;
     max-width: 20rem;
-    top: 2rem;
+    top: 12.5rem;
     left: 50%;
     color: var(--img-title-color);
     background-color: var(--img-title-bgcolor);
