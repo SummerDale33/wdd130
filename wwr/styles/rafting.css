@@ -70,7 +70,7 @@ h2 {
 
 h1 {
     position: absolute;
-    top: 30px;
+    top: -325px;
     width: 100%;
     padding: 10px;
     text-align: center;
@@ -110,7 +110,6 @@ footer p {
     grid-column: 1 / span all;
     grid-row: 1;
     text-align: center;
-    text-justify: center;
 
 }
 
