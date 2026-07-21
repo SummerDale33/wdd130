@@ -38,6 +38,7 @@ article {
 }
 
 header {
+    padding: 24px;
     color: var(--accent2-color);
     display: grid;
     grid-template-columns: max-content 1fr;
