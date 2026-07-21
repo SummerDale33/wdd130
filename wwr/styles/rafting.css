@@ -1,6 +1,6 @@
 :root {
     --bgcolor: #ddf;
-    --primary-color: skyblue;
+    --primary-color: white;
     --secondary-color: orange;
     --accent1-color: darkblue;
     --accent2-color: black;
@@ -39,6 +39,27 @@ article {
 
 header {
     color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: center;
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+header a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 h1,
@@ -60,10 +81,37 @@ h1 {
 h2 {
     background-color: var(--accent1-color);
     padding: 10px;
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+footer nav {
+    grid-column-end: 4;
+    grid-row: 1;
+    justify-self: right;
 }
 
 footer img {
     width: 50px;
+}
+
+footer p {
+    width: 100%;
+    grid-column: 1 / span all;
+    grid-row: 1;
+    text-align: center;
+    text-justify: center;
+
 }
 
 .socialmedia a {
@@ -96,4 +144,30 @@ footer img {
     width: 150px;
     height: auto;
     box-shadow: 0 0 20px var(--accent2-color);
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.history img {
+    max-width: 300px;
+    height: auto;
+}
+
+.adventure {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+}
+
+.adventure img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 18px;
 }
