@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid darkgray;
+    letter-spacing: 1px;
+}
+
+td,
+td {
+    border: 1px solid gray;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr,
+tfoot tr {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gray {
+    background-color: lightgray;
+}
+
+.league {
+    font-weight: bold;
+}
