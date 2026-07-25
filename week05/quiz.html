@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Quiz</title>
+    <meta name="description" content="A simple HTML and CSS quiz">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <main>
+        <h1>✅HTML/CSS Quiz</h1>
+
+        <form>
+            <div class="quiz-item">
+                <label for="q1">1. What statement connects a label to an input?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="quiz-item">
+                <label for="q2">2. What is the statement to link an HTML file with a CSS
+                    stylesheet named "style.css"?</label>
+                <textarea id="q2" name="q2"></textarea>
+            </div>
+            <div class="quiz-item">
+                <label for="q3">3. What changes the spacing within the border?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose one...</option>
+                    <option value="margin">Margin</option>
+                    <option value="padding">Padding</option>
+                    <option value="width">Width</option>
+                </select>
+            </div>
+            <div class="quiz-item">
+                <label for="q4">4. What is the bottom margin given in this
+                    declaration? </label>
+                <code>margin: 10px 5px 15px</code>
+                <input type="number" id="q4" name="q4">
+
+            </div>
+
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+
+</html>
