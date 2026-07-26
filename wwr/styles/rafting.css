@@ -4,6 +4,7 @@
     --secondary-color: #ffaa00;
     --accent1-color: #007;
     --accent2-color: #000;
+    --formcolor: #ccf;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -67,26 +68,88 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    background-color: var(--accent1-color);
+    padding: 10px;
+    text-align: center;
 }
 
-h1 {
+.overlay {
     position: absolute;
     top: -325px;
     width: 100%;
-    padding: 10px;
-    text-align: center;
     opacity: .7;
-    background-color: var(--accent1-color);
 }
 
-h2 {
+iframe {
+    width: 375px;
+    height: 445px;
+    border: 0;
+    box-shadow: 0 0 15px;
+    border-radius: 10px;
+}
+
+form {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+label {
+    background-color: var(--formcolor);
+    margin: 0.25rem;
+}
+
+input,
+textarea {
+    background-color: #fff;
+    margin: 0.25rem;
+    padding: .25rem;
+    font-family: inherit;
+    color: #777;
+}
+
+textarea {
+    width: 100%;
+    height: 5rem;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    vertical-align: center;
+}
+
+button {
     background-color: var(--accent1-color);
-    padding: 10px;
+    color: var(--primary-color);
+    font-size: inherit;
+    padding: 0.75rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color)
+}
+
+.profile figure {
+    display: block;
+    background-color: var(--formcolor);
+    justify-content: center;
     text-align: center;
+}
+
+.profile .bold {
+    background-color: var(--formcolor);
 }
 
 figcaption {
     text-align: center;
+}
+
+.profile figcaption {
+    background-color: var(--formcolor);
 }
 
 footer {
@@ -170,4 +233,62 @@ footer p {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 18px;
+}
+
+.shadedoutline {
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    background-color: var(--formcolor);
+
+}
+
+.addressfield {
+    display: block;
+    justify-self: center;
+    padding: 1rem;
+}
+
+.address {
+    display: block;
+    justify-self: center;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 0.25rem;
+    margin: 0.25rem;
+    background-color: var(--formcolor);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.formitem {
+    background-color: var(--formcolor);
+    padding: 0.25rem;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    background-color: var(--formcolor);
+}
+
+.profile img {
+    height: 150px;
 }
