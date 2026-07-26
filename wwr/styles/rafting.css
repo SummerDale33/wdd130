@@ -82,7 +82,7 @@ h2 {
 
 iframe {
     width: 375px;
-    height: 445px;
+    height: 460px;
     border: 0;
     box-shadow: 0 0 15px;
     border-radius: 10px;
@@ -102,9 +102,8 @@ input,
 textarea {
     background-color: #fff;
     margin: 0.25rem;
-    padding: .25rem;
+    padding: .5rem;
     font-family: inherit;
-    color: #666;
 }
 
 textarea {
