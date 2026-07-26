@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Down the River White Water Rafting: Contact Us</title>
-    <meta name="description" content="Contact Down the River">
+    <meta name="description" content="Send a message to Down the River White Water Rafting">
     <meta name="author" content="SummerDale Beckstrand">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -25,7 +25,7 @@
     </header>
     <main>
         <h1>Down the River White Water Rafting</h1>
-        <section class="addressfield shadedoutline">
+        <div class="addressfield shadedoutline">
             <div class="address">
                 123 Main Street<br>
                 Kolob, California
@@ -36,13 +36,13 @@
             <div class="address">
                 info@downtheriver.com
             </div>
-        </section>
-        <section class="grid">
-            <div class="map"><iframe
-                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3022.669500400809!2d-111.92411159114063!3d40.74729733589867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sriver%20salt%20lake!5e0!3m2!1sen!2sus!4v1785016648281!5m2!1sen!2sus"
-                  allowfullscreen loading="lazy"
-                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
-            </div>
+        </div>
+        <div class="grid">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3022.669500400809!2d-111.92411159114063!3d40.74729733589867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sriver%20salt%20lake!5e0!3m2!1sen!2sus!4v1785016648281!5m2!1sen!2sus"
+              allowfullscreen loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
             <div class="contact">
                 <form class="shadedoutline">
                     <div class="formitem column">
@@ -51,21 +51,20 @@
                     </div>
                     <div class="formitem column">
                         <label for="email" class="bold">Email</label>
-                        <input type=" email" id="email" name="email" value="john.doe@example.com">
+                        <input type="email" id="email" name="email" value="john.doe@example.com">
                     </div>
                     <div class="formitem">
-                        <label for="purpose" class="bold">Message Purpose</label><br>
+                        <label class="bold">Message Purpose</label><br>
                         <input type="radio" id="general" name="purpose">
                         <label for="general">General Inquiry</label><br>
                         <input type="radio" id="reservation" name="purpose">
                         <label for="reservation">Reservation Question</label><br>
                         <input type="radio" id="website" name="purpose">
                         <label for="website">Website Suggestion</label>
-                        </input>
                     </div>
                     <div class="formitem">
                         <label for="message" class="bold">Message</label><br>
-                        <textarea id=" message" name="message">Type here</textarea>
+                        <textarea id="message" name="message">Type here</textarea>
                     </div>
                     <div class="formitem">
                         <input type="checkbox" id="subscribe" name="subscribe">
@@ -76,7 +75,7 @@
                     </div>
                 </form>
             </div>
-        </section>
+        </div>
         <section class="shadedoutline">
             <h2>We Are Here to Serve You</h2>
             <div class="profile">
