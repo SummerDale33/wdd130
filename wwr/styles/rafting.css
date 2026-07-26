@@ -126,6 +126,8 @@ button {
     margin: 0.5rem;
     border-radius: 10px;
     width: 100%;
+    border: 0;
+    box-shadow: 5px 5px 5px #000;
 }
 
 button:hover {
