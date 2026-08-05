@@ -1,7 +1,7 @@
 :root {
     --bgcolor: #ddf;
     --primary-color: #fff;
-    --secondary-color: #ffaa00;
+    --secondary-color: #ffc900;
     --accent1-color: #007;
     --accent2-color: #000;
     --formcolor: #ccf;
@@ -75,7 +75,7 @@ h2 {
 
 .overlay {
     position: absolute;
-    top: -325px;
+    top: -375px;
     width: 100%;
     opacity: .7;
 }
@@ -194,7 +194,7 @@ footer p {
 
 .hero article {
     position: absolute;
-    top: 350px;
+    top: 400px;
     background-color: var(--secondary-color);
     color: var(--accent2-color)
 }
@@ -219,6 +219,61 @@ footer p {
 .history img {
     max-width: 300px;
     height: auto;
+}
+
+.cta {
+    margin: 1rem 1rem 0 1rem;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.cta p {
+    display: block;
+    justify-self: center;
+    background-color: var(--secondary-color);
+    width: 100%;
+}
+
+.cta a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    justify-self: center;
+    background-color: transparent;
+    color: var(--accent2-color);
+}
+
+.cta p:hover {
+    background-color: var(--accent2-color);
+}
+
+.cta a:hover {
+    color: var(--secondary-color)
+}
+
+.home-fun {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+.home-fun img {
+    width: 90%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.small {
+    display: flex;
+    width: 90%;
+    justify-self: center;
+    align-items: bottom;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    background-color: var(--primary-color);
 }
 
 .adventure {
