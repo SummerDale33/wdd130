@@ -53,6 +53,11 @@ header img {
 
 header a {
     text-decoration: none;
+    color: var(--accent1-color);
+}
+
+header a:hover {
+    color: #00f
 }
 
 nav ul {
@@ -75,7 +80,7 @@ h2 {
 
 .overlay {
     position: absolute;
-    top: -375px;
+    top: -385px;
     width: 100%;
     opacity: .7;
 }
