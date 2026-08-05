@@ -261,16 +261,16 @@ footer p {
 .home-fun img {
     width: 90%;
     height: auto;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 
 }
 
 .small {
     display: flex;
     width: 90%;
-    justify-self: center;
     align-items: bottom;
+    justify-self: center;
     border-radius: 10px;
     box-shadow: 0 0 15px;
     background-color: var(--primary-color);
