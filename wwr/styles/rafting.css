@@ -94,7 +94,7 @@ form {
 }
 
 label {
-    background-color: var(--formcolor);
+    background-color: transparent;
     margin: 0.25rem;
 }
 
@@ -136,13 +136,13 @@ button:hover {
 
 .profile figure {
     display: block;
-    background-color: var(--formcolor);
+    background-color: transparent;
     justify-content: center;
     text-align: center;
 }
 
 .profile .bold {
-    background-color: var(--formcolor);
+    background-color: transparent;
 }
 
 figcaption {
@@ -150,7 +150,7 @@ figcaption {
 }
 
 .profile figcaption {
-    background-color: var(--formcolor);
+    background-color: transparent;
 }
 
 footer {
@@ -228,28 +228,25 @@ footer p {
 }
 
 .cta p {
-    display: block;
-    justify-self: center;
-    background-color: var(--secondary-color);
-    width: 100%;
+    background-color: transparent;
 }
 
 .cta a {
     display: block;
+    padding: 0.5rem;
+    text-align: center;
     text-decoration: none;
     font-size: 1.25rem;
     font-weight: 700;
-    justify-self: center;
-    background-color: transparent;
+    background-color: var(--secondary-color);
     color: var(--accent2-color);
-}
-
-.cta p:hover {
-    background-color: var(--accent2-color);
+    justify-self: center;
+    width: 100%;
 }
 
 .cta a:hover {
-    color: var(--secondary-color)
+    color: var(--secondary-color);
+    background-color: var(--accent2-color);
 }
 
 .home-fun {
@@ -313,7 +310,7 @@ footer p {
     font-weight: 700;
     padding: 0.25rem;
     margin: 0.25rem;
-    background-color: var(--formcolor);
+    background-color: transparent;
 }
 
 .grid {
@@ -323,7 +320,7 @@ footer p {
 }
 
 .formitem {
-    background-color: var(--formcolor);
+    background-color: transparent;
     padding: 0.25rem;
 }
 
@@ -343,7 +340,7 @@ footer p {
     margin: 1rem;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
-    background-color: var(--formcolor);
+    background-color: transparent;
 }
 
 .profile img {
