@@ -550,7 +550,7 @@ td {
 }
 
 .secondary {
-    background-color: var(--formcolor);
+    background-color: var(--bgcolor);
     color: var(--accent2-color);
 }
 
